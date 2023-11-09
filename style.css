@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2d785;
+    color: black;
+    font-family:'Gill Sans', sans-serif; 
+    margin: 0;
+    padding-bottom: 9rem;
+}
+
+@font-face {
+    font-family: 'Groovy day';
+    src: url(fonts/GroovyDay.ttf)
+}
+
+@font-face {
+    font-family: Super dream;
+    src: url(fonts/Super\ Dream.ttf);
+}
+
+header {
+    background-image: url(images/header.png);
+    padding-bottom: 1.3em;
+    margin-bottom: 1em;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+footer {
+    display: block; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: url(images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: block;
+    width: 100%;
+}
+
+.bloem {
+    width: 2.5em;
+    height: auto;
+}
+
+.rondje {
+    width: 2em;
+    height: auto;
+}
+
+
+nav img {
+    width: 4rem;
+}
+
+.contact {
+    width: 6em;
+    margin-left: 1.2em;
+    margin-right: 2em;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    margin: 0.5rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 45vw;
+    height: auto; 
+}
+
+.logo img {
+    width: 8rem;
+}
+
+.containergroot {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 1em;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+.containergroot img {
+    width: 90vw;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0.5em;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+.container img {
+    border-radius: 0.8em;
+}
+
+.containerpadding {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0.5em;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    padding-bottom: 1em;
+}
+
+.container img {
+    border-radius: 0.8em;
+}
+
+.containerpadding img {
+    border-radius: 0.8em;
+}
+
+.witruimte {
+    padding-bottom: 1.5em;
+}
+
+.icoon {
+    float: right;
+    width: 3em;
+    margin: 2px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+.icoongr {
+    float: right;
+    width: 5em;
+    margin: 2px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.icoonbloem {
+    float: right;
+    width: 4em;
+    margin: 2px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+
+
+.contacticoon {
+    float: left;
+    width: 3.5em;
+    margin-left: 1.2em;
+    margin-right: 0.7em;
+}
+
+
+.brieven {
+    float: left;
+    width: 4em;
+    margin-left: 1.2em;
+    margin-right: 0.7em;
+}
+
+.locaties {
+    line-height: 0.5rem;
+}
+
+.kompas {
+    float: left;
+    width: 2.5em;
+    margin-left: 1.2em;
+    margin-right: 0.7em;
+}
+
+.locaties p {
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.button {
+    width: 8em;
+}
+
+.rozeblok {
+    background-color: #ffaec5;
+    border-radius: 1em;
+    padding: 0.4em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.roze {
+    background-color: #ffaec5;
+    border-radius: 1em;
+    padding: 0.1em;
+    margin-bottom: 0.5em;
+}
+
+.oranje {
+    background-color: #F2A81F;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    width: 100vw;
+}
+
+.groenblok {
+    background-color: #B3B326;
+    border-radius: 1em;
+    padding: 0.4em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.groen {
+    background-color: #B3B326;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    border-radius: 1.5em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+h1, h2, h3, p {
+    margin-right: 1.4rem;
+    margin-left: 1.4rem;
+}
+
+h1, h2, h3 {
+    font-family: Super dream;
+}
+
+h1 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+p {
+    font-family: 'Gill Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.2em;
+}
+
+.intro {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex h1 {
+    margin: 1px;
+}
