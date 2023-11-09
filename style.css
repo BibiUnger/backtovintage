@@ -300,3 +300,11 @@ p {
 .flex h1 {
     margin: 1px;
 }
+
+.spin {
+    transition: all 1s ease;
+}
+
+.spin:active {
+    transform: rotate(360deg);
+}
